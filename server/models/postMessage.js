@@ -18,4 +18,4 @@ const postSchema = new Schema({
     },
 });
 
-const PostMessage = mongoose.model('PostMessage', postSchema); 
+const PostMessage = model('PostMessage', postSchema); 

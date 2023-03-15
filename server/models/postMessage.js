@@ -19,3 +19,5 @@ const postSchema = new Schema({
 });
 
 const PostMessage = model('PostMessage', postSchema); 
+
+export default postSchema; 
